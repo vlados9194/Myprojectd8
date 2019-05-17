@@ -1,0 +1,33 @@
+uuid: 121d6d75-5db9-44b2-b664-db19e9eb2f23
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_3
+    - node.type.blog
+  module:
+    - comment
+id: node.blog.field_3
+field_name: field_3
+entity_type: node
+bundle: blog
+label: '3'
+description: ''
+required: false
+translatable: false
+default_value:
+  -
+    status: 0
+    cid: 0
+    last_comment_timestamp: 0
+    last_comment_name: null
+    last_comment_uid: 0
+    comment_count: 0
+default_value_callback: ''
+settings:
+  default_mode: 1
+  per_page: 50
+  anonymous: 0
+  form_location: true
+  preview: 1
+field_type: comment

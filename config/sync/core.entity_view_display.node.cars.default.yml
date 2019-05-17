@@ -1,0 +1,28 @@
+uuid: c2041412-4725-4c39-a6f3-df2b29eadc27
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.node.cars.body
+    - node.type.cars
+  module:
+    - text
+    - user
+id: node.cars.default
+targetEntityType: node
+bundle: cars
+mode: default
+content:
+  body:
+    label: hidden
+    type: text_default
+    weight: 101
+    settings: {  }
+    third_party_settings: {  }
+    region: content
+  links:
+    weight: 100
+    settings: {  }
+    third_party_settings: {  }
+    region: content
+hidden: {  }
